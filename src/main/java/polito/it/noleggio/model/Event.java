@@ -2,7 +2,7 @@ package polito.it.noleggio.model;
 
 import java.time.LocalTime;
 
-public class Event {
+public class Event implements Comparable<Event>{
 	
 	public enum EventType{
 		NUOVO_CLIENTE,
